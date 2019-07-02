@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 function Ticket(props){
   var ticketStyles = {
@@ -8,11 +8,11 @@ function Ticket(props){
     paddingTop: '50px'
   }
   return (
-      <div style={ticketStyles}>
-        <h3>{props.location} - {props.names}</h3>
-        <p><em>{props.issue}</em></p>
-        <hr/>
-      </div>
+    <div style={ticketStyles}>
+      <h3>{props.location} - {props.names}</h3>
+      <p><em>{props.issue}</em></p>
+      <hr/>
+    </div>
    );
 }
 
